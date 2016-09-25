@@ -1,0 +1,963 @@
+@media screen and (max-width:950px) {
+    .what__we__do h1,
+    .why__we h1,
+    .work h1,
+    .result h1,
+    .possible h1,
+    .reviews h1,
+    .our__team h1,
+    .contacts h1 {
+        font-size: 1.7rem;
+        padding-top: 2.5rem;
+    }
+
+    .header__container {
+        width: 100%;
+        background-color: rgba(255, 255, 255, .7);
+    }
+
+    header {
+        background: url('../img/header.png') no-repeat center center;
+        background-size: cover;
+    }
+
+    .right__nav {
+        display: none;
+    }
+
+    .logo {
+        width: 60px;
+        margin: 1rem 0 0 4rem;
+    }
+
+    .title {
+        margin-top: 1rem;
+        margin-left: 9rem;
+    }
+
+    .header__title {
+        font-size: 1.5rem;
+    }
+
+    .header__menu {
+        position: fixed;
+        z-index: 20;
+        left: 0;
+        margin: 0 0 0 .5rem;
+        padding: .7rem;
+    }
+
+   
+
+    .header__menu i {
+        font-size: 1.5rem;
+        -webkit-transition: transform .3s ease;
+        -moz-transition: transform .3s ease;
+        -o-transition: transform .3s ease;
+        transition: transform .3s ease;
+        color: #818181;
+    }
+
+    .header__menu.open i {
+        -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+
+    .nav {
+        position: fixed;
+        z-index: 10;
+        padding: 8rem 0 4rem;
+        -webkit-transition: transform .3s ease;
+        -moz-transition: transform .3s ease;
+        -o-transition: transform .3s ease;
+        transition: transform .3s ease;
+        -webkit-transform: translate(-500px, -150px);
+        transform: translate(-500px, -150px);
+        background-color: rgba(255, 255, 255, .9);
+    }
+
+    .nav.open {
+        width: 55%;
+        max-width: 200px;
+        padding: 8rem 0 4rem;
+        -webkit-transform: translate(0, -150px);
+        transform: translate(0, -150px);
+    }
+
+    .nav__item {
+        line-height: 1.5rem;
+        display: list-item;
+        padding-top: .5rem;
+        padding-left: 2rem;
+        text-align: left;
+    }
+
+    .nav a {
+        width: 100%;
+        padding: .5rem;
+    }
+
+    .nav i {
+        padding-right: .5rem;
+        color: #27aae1;
+    }
+
+    .header__subtitle {
+        margin: 2.5rem 0 1rem 3rem;
+    }
+
+    .header__paragraph {
+        width: 85%;
+        margin: 0 2rem;
+        text-align: center;
+        color: black;
+    }
+
+    .btn__order {
+        margin: 1.5rem 0 1.875rem;
+        text-align: center;
+    }
+
+    .btn__order.first {
+        display: none;
+    }
+
+    .btn__order.second {
+        margin-bottom: 0;
+    }
+
+    .btn__order.second.fixed {
+        position: fixed;
+        z-index: 9;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .btn__order.second.fixed  a {
+        border: 1px solid white;
+    }
+
+    .img {
+        display: none;
+    }
+
+    /*****what__we__do****/
+    .what__we__do .col {
+        width: 100%;
+    }
+
+    .what__we__do {
+        margin: 0;
+    }
+
+    /****why__we****/
+    .why__we img {
+        width: 5rem;
+        padding: .5rem 0 1rem;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .why__we p {
+        margin-right: .5rem;
+        margin-left: .5rem;
+        text-align: center;
+    }
+
+    /***work***/
+    .examples {
+        width: 95%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .example {
+        width: 50%;
+    }
+
+    .example img {
+        height: 7rem;
+    }
+
+    .about__work {
+        margin: 0 2rem;
+        text-align: center;
+    }
+
+    .preview {
+        position: fixed;
+        z-index: 10000;
+    }
+
+    .btn__close i {
+        font-size: 2.5rem;
+        float: right;
+        margin-right: -2rem;
+        padding: 0 1.5rem;
+        color: black;
+        cursor: pointer;
+    }
+
+    iframe {
+        z-index: 3;
+        top: 17%;
+        left: 6.5%;
+    }
+
+    .about__work {
+        display: none;
+    }
+
+    .bcg__iphone {
+        top: 17%;
+    }
+
+    .bor__app {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .possible__preview {
+        display: none;
+    }
+
+    .screen {
+        display: none;
+    }
+
+    .order {
+        width: 70%;
+    }
+
+    .order_par {
+        width: 100%;
+        margin: 1rem 2rem 2rem;
+    }
+
+    .btn__order__possible {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    /***recall***/
+    .reviews .container__other {
+        width: 95%;
+    }
+
+    .recall {
+        width: 80%;
+        margin: .5rem auto;
+    }
+
+    .bx-wrapper .person_review img {
+        max-width: 100px;
+    }
+
+
+
+   
+
+    /****our__team*****/
+    .our__team .container__other {
+        width: 100%;
+    }
+
+    .person {
+        width: 33.3%;
+    }
+
+    /***contact***/
+    .contacts h1 {
+        margin-bottom: 3rem;
+    }
+
+    .cont-item {
+        width: 50%;
+    }
+
+    .cont i {
+        margin: 0 35% .5rem 35%;
+    }
+
+    .map {
+        width: 95%;
+    }
+
+    .forms {
+        width: 100%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    /*затемнение при нажатии на приложение*/
+    .hide-layout {
+        position: fixed;
+        z-index: 998;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        opacity: .5;
+        background: #000;
+        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+    }
+
+    @media screen and (max-width:363px) {
+        .header__subtitle {
+            font-size: 2.2rem;
+            line-height: 2.1rem;
+        }
+
+        .header__subtitle span {
+            font-size: 1.7rem;
+        }
+
+    }
+
+    @media screen and (max-width:346px) {
+        .nav {
+            padding-top: 6.5rem;
+        }
+
+        .nav.open {
+            padding-top: 6.5rem;
+        }
+
+        .order_par {
+            margin: .5rem .5rem 1rem;
+        }
+
+        .recall {
+            width: 100%;
+        }
+
+
+    }
+
+    @media screen and (max-width:620px) {
+        .result__item {
+            width: 100%;
+            margin: 1rem 0 .5rem;
+        }
+
+        .it {
+            width: 40%;
+            min-width: 15rem;
+        }
+
+        .icon-item {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+    }
+
+    @media screen and (min-width:620px) {
+        .btn__order.first {
+            display: inline-block;
+            float: right;
+            margin: 3rem;
+        }
+
+        .header__subtitle {
+            margin: 3rem;
+        }
+
+        .what__we__do .col {
+            width: 50%;
+        }
+
+        .result__item {
+            width: 50%;
+            margin: 1.3rem 0 .7rem;
+        }
+
+        .it {
+            width: 60%;
+        }
+
+        /*****possible***/
+        .icon-item {
+            width: 50%;
+        }
+
+    }
+
+    @media screen and (min-width:680px) {
+        .example {
+            width: 33.3%;
+        }
+    }
+
+   
+    @media screen and (max-width:850px) {
+        .person {
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+
+    }
+
+    @media screen and (min-width:845px) {
+        .cont-item {
+            width: 25%;
+        }
+
+        .cont i {
+            margin: 0 40% .5rem 40%;
+        }
+
+    }
+
+    @media screen and (max-height:561px) {
+        .btn__close i {
+            position: absolute;
+            z-index: 10001;
+            top: 1.5rem;
+            right: -.6rem;
+            color: white;
+        }
+
+        .preview iframe {
+            top: 11%;
+        }
+
+        .bcg__iphone {
+            top: 10.5%;
+        }
+
+    }
+
+}
+
+@media screen and (min-width:951px) {
+    .what__we__do h1,
+    .why__we h1,
+    .work h1,
+    .result h1,
+    .possible h1,
+    
+    .our__team h1,
+    .contacts h1 {
+        font-size: 2.3rem;
+        padding-top: 4rem;
+    }
+
+    .header__container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    .logo {
+        width: 80px;
+        margin: 1rem 0 0;
+    }
+
+    .title {
+        margin-top: 1.5rem;
+        margin-left: 6rem;
+    }
+
+    .btn__order.first {
+        display: inline-block;
+        float: right;
+        margin-top: 3rem;
+    }
+
+    .header__subtitle {
+        margin: 7rem 0 2rem;
+    }
+
+    .inside__header {
+        width: 52%;
+        padding-bottom: 5rem;
+    }
+
+    .btn__order.second {
+        margin: 2rem 0 0;
+        text-align: center;
+    }
+
+    nav {
+        position: absolute;
+        top: 2.7rem;
+        right: 30%;
+        display: inline-block;
+    }
+
+    .nav__item {
+        padding: 5px;
+    }
+
+    .nav i {
+        display: none;
+    }
+
+    .nav a {
+        padding: 0;
+    }
+
+    .img {
+        display: inline-block;
+        float: right;
+        width: 50%;
+        margin-top: -33rem;
+    }
+
+    .img img {
+        float: right;
+        width: 85%;
+        max-width: 33rem;
+    }
+
+    .container__other {
+        min-width: 720px;
+    }
+
+    /****what__we__do****/
+    .what__we__do .col {
+        width: 25%;
+    }
+
+    .what__we__do {
+        margin: 0;
+    }
+
+    /****why__we****/
+    .reason {
+        width: 72%;
+    }
+
+    .why__we .ion-social-usd-outline {
+        padding-bottom: 2rem;
+    }
+
+    .why__we img {
+        display: inline-block;
+        padding: 0 1.5rem 1.5rem 1.5rem;
+    }
+
+    .why__we img {
+        width: 8rem;
+    }
+
+    .why__we .two img {
+        width: 7.3rem;
+        float: left;
+    }
+
+    .why__we .one img,
+    .why__we .three img {
+        float: right;
+    }
+
+    .reason.two {
+        margin-left: auto;
+    }
+
+    .reason.one p,
+    .reason.three p {
+        margin-left: 1rem;
+    }
+
+    .reason.two p {
+        margin: 0 1rem 0 1rem;
+    }
+
+    /***work***/
+    .work .container__other {
+        width: 95%;
+    }
+
+    .examples {
+        width: 45%;
+        text-align: center;
+    }
+
+    .example {
+        width: 33.3%;
+    }
+
+    .example img {
+        height: 6.250rem;
+    }
+
+    .preview {
+        position: absolute;
+        top: 13rem !important;
+        left: 60% !important;
+        display: block !important;
+        order: 1;
+    }
+
+    .btn__close {
+        display: none;
+    }
+
+    .bcg__iphone {
+        top: 11%;
+    }
+
+    .about__work {
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 3rem;
+        text-align: center;
+        order: 2;
+    }
+
+    iframe {
+        z-index: 3;
+        top: 10.8%;
+        left: 6.2%;
+    }
+
+    .bor__app {
+        width: 50%;
+    }
+
+    .borovik__site img {
+        float: right;
+    }
+
+    /***result***/
+    .result__item {
+        width: 33.3%;
+    }
+
+    .it {
+        width: 60%;
+    }
+
+    /*    .line {
+        position: absolute;
+        background-color: #27aae2;
+        z-index: -1;
+    }
+
+    .line_one {
+        width: 14.1%;
+        height: 0.3rem;
+        left: 26.3%; 
+        top: 13rem;
+        clip: rect(0 300px 6px 0);
+    }
+
+    .line_two {
+        width: 14.1%;
+        height: 0.3rem;
+        left: 59.5%; 
+        top: 13rem;
+        clip: rect(0 300px 6px 0);
+    }
+
+    .line_three {
+        width: 0.35rem;
+        height: 6.3rem;
+        left: 83%; 
+        top: 19rem;
+        clip: rect(0 6px 300px 0);
+    }
+
+    .line_four {
+        width: 14.1%;
+        height: 0.3rem;
+        left: 59.5%; 
+        top: 31rem;
+        clip: rect(0 300px 6px 0);
+    }
+
+    .line_fife {
+        width: 14.1%;
+        height: 0.3rem;
+        left: 26.3%; 
+        top: 31rem;
+        clip: rect(0 300px 6px 0);
+    }
+    */
+
+    /****possible****/
+
+    .icon-item {
+        width: 25%;
+    }
+
+    .possible__preview {
+        display: none;
+    }
+
+    .possible__preview {
+        display: none;
+    }
+
+    .screen {
+        display: none;
+    }
+
+    .order {
+        width: 55%;
+    }
+
+    .order_par {
+        width: 68%;
+    }
+
+    .btn__order__possible {
+        width: 32%;
+    }
+
+    .recall {
+        width: 50%;
+        margin: .5rem auto;
+    }
+
+    .btn__close__rec {
+        display: none;
+    }
+
+    
+
+
+    .our__team .container__other {
+        width: 85%;
+    }
+
+    .we .person {
+        width: 33.3%;
+    }
+
+    /******contacts****/
+    .contacts {
+        padding-bottom: 4rem;
+    }
+
+    .contacts .container__other {
+        width: 95%;
+    }
+
+    .contacts h1 {
+        margin-bottom: 5.5rem;
+    }
+
+    .cont-item {
+        width: 25%;
+    }
+
+    .cont i {
+        margin: 0 40% .5rem 40%;
+    }
+
+    .map {
+        width: 60%;
+    }
+
+    .forms {
+        width: 35%;
+        margin-left: 1.5rem;
+    }
+
+    .bg1 {
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        background: url(../img/bg__why_we.jpg) no-repeat center center;
+        background-size: cover;
+    }
+
+    .bg2 {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: .5;
+        background: url(../img/result_bg.jpg) no-repeat center center;
+        background-size: cover;
+    }
+
+    @media screen and (min-width:995px) {
+        .recall {
+            width: 33%;
+        }
+
+    }
+
+    @media screen and (min-width:1100px) {
+        .nav__item {
+            margin-left: 1.5rem;
+        }
+
+        .what__we__do {
+            margin: 3.125rem 0 0;
+        }
+
+        .preview {
+            left: 75% !important;
+            order: 2;
+        }
+
+        .about__work {
+            width: 30%;
+            margin: 3rem 0 0;
+            margin-top: 10%;
+            order: 1;
+        }
+
+    }
+
+    @media screen and (min-width:1260px) {
+        .header__container {
+            width: 78%;
+        }
+
+        .nav__item {
+            margin-left: 2.5rem;
+        }
+
+        .why__we .container__other {
+            width: 81%;
+        }
+
+        .what__we__do {
+            margin: 5rem 0 0;
+        }
+
+        .possible .container__other {
+            width: 95%;
+        }
+
+        .inside__possible {
+            width: 40%;
+        }
+
+        .icon-item {
+            width: 50%;
+            -webkit-transition: ease-in .2s;
+            -moz-transition: ease-in .2s;
+            -o-transition: ease-in .2s;
+            transition: ease-in .2s;
+            opacity: .7;
+        }
+
+        .icon-item i {
+            -webkit-transition: ease-in .2s;
+            -moz-transition: ease-in .2s;
+            -o-transition: ease-in .2s;
+            transition: ease-in .2s;
+        }
+
+        .icon-item.active i,
+        .icon-item:hover i {
+            transform: scale(1.2);
+        }
+
+        .icon-item:hover::after,
+        .icon-item.active::after {
+            width: 70%;
+            border-bottom: 1px solid rgba(255, 255, 255, .5);
+        }
+
+        .icon-item:hover,
+        .icon-item.active {
+            opacity: 1;
+        }
+
+        .possible__preview {
+            display: block;
+            width: 18%;
+        }
+
+        .screen {
+            position: absolute;
+            top: 315px;
+            left: calc(50% - 101px);
+            display: block;
+            visibility: hidden;
+            width: 202px;
+            height: 358px;
+            -webkit-transition: 700ms ease;
+            -moz-transition: 700ms ease;
+            -o-transition: 700ms ease;
+            transition: 700ms ease;
+            opacity: 0;
+        }
+
+        .icon-item:hover .screen {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .possible__preview img {
+            position: absolute;
+            left: calc(50% - 7.15rem);
+            width: 14.3rem;
+            margin-top: 6rem;
+        }
+
+        .backgr {
+            position: absolute;
+            top: 315px;
+            left: calc(50% - 101px);
+            width: 202px;
+            height: 358px;
+            background-color: black;
+        }
+
+    }
+
+    @media screen and (min-width:1435px) {
+        .img {
+            margin-top: -29rem;
+        }
+
+    }
+
+    @media screen and (min-width:2000px) {
+        .nav {
+            right: 40%;
+        }
+
+    }
+
+}
+
+@media (pointer:fine) {
+    #slide01 .bcg {
+        background: url(../img/bg__why_we.jpg) no-repeat center center;
+        background-size: cover;
+    }
+
+    #slide02 .bcg {
+        opacity: .5;
+        background: url(../img/result_bg.jpg) no-repeat center center;
+        background-size: cover;
+    }
+
+    .bcg {
+        position: absolute;
+        z-index: -2;
+        top: -55%;
+        left: -18%;
+        width: 135%;
+        height: 135%;
+        background: no-repeat center center;
+        background-size: cover;
+    }
+
+    .right__nav {
+        display: block;
+    }
+
+}
+
+@media (pointer:coarse) {
+    .right__nav {
+        display: none;
+    }
+
+}
